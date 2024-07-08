@@ -16,7 +16,7 @@ jobs:
 
       - name: Run BCR PR Reviewer
         if: github.repository_owner == 'bazelbuild'
-        uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@68dea4fe63a2ad44caaa8f3c44df19094b3dd395 # master
+        uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@95799f710e6e18024b00c8a075747bd8a14d1337 # master
         with:
           # This token needs to be updated annually on Feb 05.
           token: ${{ secrets.BCR_PR_REVIEW_HELPER_TOKEN }}
