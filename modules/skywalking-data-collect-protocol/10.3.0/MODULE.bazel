@@ -1,0 +1,17 @@
+module(
+    name = "skywalking-data-collect-protocol",
+    compatibility_level = 1,
+    version = "10.3.0",
+)
+
+bazel_dep(
+    name = "grpc",
+    version = "1.56.3.bcr.1",
+    repo_name = "com_github_grpc_grpc",
+)
+bazel_dep(
+    name = "protobuf",
+    version = "21.7",
+    repo_name = "com_google_protobuf",
+)
+# -- bazel_dep definitions -- #
