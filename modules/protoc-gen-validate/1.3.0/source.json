@@ -1,0 +1,12 @@
+{
+    "url": "https://github.com/bufbuild/protoc-gen-validate/archive/refs/tags/v1.3.0.tar.gz",
+    "integrity": "sha256-JtxttSPulDr1H9/CkmWKLb5wRnNWVPHcg5dFmI8P4ms=",
+    "strip_prefix": "protoc-gen-validate-1.3.0",
+    "overlay": {
+        "MODULE.bazel": "sha256-/nTZSuM8eaTNUMtOQf9bID8M7NvkkZezEGo6d+BYNLs="
+    },
+    "patches": {
+        "bazel_9_fixes.patch": "sha256-mjVYPS+kTgVncUiAQysgeDpgE+ekE5bMDn5pood9tA0="
+    },
+    "patch_strip": 1
+}
