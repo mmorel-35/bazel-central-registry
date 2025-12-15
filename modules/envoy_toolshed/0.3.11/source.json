@@ -4,6 +4,6 @@
     "url": "https://github.com/envoyproxy/toolshed/archive/refs/tags/bazel-v0.3.11.tar.gz",
     "patch_strip": 1,
     "patches": {
-        "build_fixes.patch": "sha256-Rq7ng+tEiaSBQn8WxTPRcEPDO/csrfpC0AnKXXBAt2Y="
+        "bzlmod_support.patch": "sha256-6CWVN3WnI4a0/nmvxZwS1yDSWy1tgemcsrwozYgfbPM="
     }
 }
