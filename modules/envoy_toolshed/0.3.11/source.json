@@ -1,5 +1,10 @@
 {
     "integrity": "sha256-+pRswqkN0d+NRX0LYQmbnYgyEHHcoCxlM+Jy4kkR4R0=",
     "strip_prefix": "toolshed-bazel-v0.3.11/bazel",
-    "url": "https://github.com/envoyproxy/toolshed/archive/refs/tags/bazel-v0.3.11.tar.gz"
+    "url": "https://github.com/envoyproxy/toolshed/archive/refs/tags/bazel-v0.3.11.tar.gz",
+    "patch_strip": 1,
+    "patches": {
+        "export_versions.patch": "sha256-UhS1T08sLw0gTd0ty2ZXZdopxVd5MYXAv38BUZHfqLM=",
+        "fix_visibility.patch": "sha256-uyfG2dvMJuqMjlzIz5jyz4HasLDnzHDXDxLnWm0AKc4="
+    }
 }

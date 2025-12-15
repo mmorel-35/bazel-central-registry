@@ -13,4 +13,14 @@ tasks:
     platform: ${{ unix_platform }}
     bazel: ${{ bazel }}
     build_targets:
-    - "@envoy_toolshed//..."
+    - "@envoy_toolshed//compile/..."
+    - "@envoy_toolshed//coverage/..."
+    - "@envoy_toolshed//dependency/..."
+    - "@envoy_toolshed//format/..."
+    - "@envoy_toolshed//profiler/..."
+    - "@envoy_toolshed//repository/..."
+    - "@envoy_toolshed//sha/..."
+    - "@envoy_toolshed//sysroot/..."
+    - "@envoy_toolshed//tarball/..."
+    - "@envoy_toolshed//toolchains/..."
+    - "@envoy_toolshed//:dependency_versions"
