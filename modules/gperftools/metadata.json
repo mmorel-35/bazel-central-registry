@@ -2,15 +2,16 @@
     "homepage": "https://github.com/gperftools/gperftools",
     "maintainers": [
         {
-            "github": "mering",
-            "github_user_id": 133344217
+            "github": "alk",
+            "github_user_id": 14850
         }
     ],
     "repository": [
         "github:gperftools/gperftools"
     ],
     "versions": [
-        "2.17.2"
+        "2.17.2",
+        "2.18"
     ],
     "yanked_versions": {}
 }
