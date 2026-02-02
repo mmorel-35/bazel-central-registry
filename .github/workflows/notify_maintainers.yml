@@ -16,7 +16,7 @@ jobs:
           egress-policy: audit
 
       - name: Run BCR PR Reviewer
-        uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@88343b58ed92860f43faeabd6c41e16b0aac57b6 # master
+        uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@9b7cb1c30e7923069f0b72f7c47a05947f0f0a96 # master
         with:
           # This token needs to be updated annually on Feb 05.
           token: ${{ secrets.BCR_PR_REVIEW_HELPER_TOKEN }}
