@@ -24,7 +24,7 @@
         "github:proxy-wasm/proxy-wasm-cpp-sdk"
     ],
     "versions": [
-        "0.0.0-260123-894dd29"
+        "0.0.0-20260123-894dd29"
     ],
     "yanked_versions": {}
 }

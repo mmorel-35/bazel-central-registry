@@ -12,35 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-module(
-    name = "proxy-wasm-cpp-sdk",
-    version = "0.0.0-260123-894dd29",
-    repo_name = "proxy_wasm_cpp_sdk",
-)
-
-bazel_dep(
-    name = "emsdk",
-    version = "4.0.13",
-)
-bazel_dep(
-    name = "platforms",
-    version = "1.0.0",
-)
-bazel_dep(
-    name = "protobuf",
-    version = "29.3",
-    repo_name = "com_google_protobuf",
-)
-bazel_dep(
-    name = "re2",
-    version = "2024-07-02.bcr.1",
-    repo_name = "com_google_re2",
-)
-bazel_dep(
-    name = "rules_cc",
-    version = "0.2.0",
-)
-bazel_dep(
-    name = "rules_python",
-    version = "1.4.1",
-)
+matrix:
+  platform: ["debian11", "macos", "ubuntu2204"]
+  bazel: [7.x, 8.x, 9.x]
+tasks:
+  verify_targets:
+    name: "Build example WebAssembly modules"
+    platform: ${{ platform }}
+    bazel: ${{ bazel }}
+    build_targets:
+      - "@proxy-wasm-cpp-sdk//..."
