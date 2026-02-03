@@ -4,7 +4,7 @@
     "strip_prefix": "proxy-wasm-cpp-sdk-894dd29ff8333d6cc51b416d334568058d6aef71",
     "patches": {
         "proxy-wasm-cpp-sdk.patch": "sha256-HX2I0ovtuofK8WmRwhIv2BoyHqTuc7WE+LzJHpKH8JU=",
-        "module_version.patch": "sha256-HD4wwHqXrMvVr7R8fXYzCLiVwop6P/zPTeNVxspbeDY="
+        "module_version.patch": "sha256-7YsNSCAHtqbJRu8GM8+ItYrutLxN7BHJvmjnrR0d4Xg="
     },
     "patch_strip": 1
 }
