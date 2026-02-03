@@ -3,6 +3,6 @@
     "integrity": "sha256-g7ZEOqPBrySKlg4qspz5CVSoRACpOlzllabDxgLoZb8=",
     "strip_prefix": "emsdk-4.0.13/bazel",
     "patches": {
-        "bazel9-cc-toolchain-config-info.patch": "sha256-TukaoZ4BP585t5XMETN90MzBJTAaRIDhQXI9kHY8Ea4="
+        "bazel9-cc-toolchain-config-info.patch": "sha256-b5cV2MYYYZk8ojQ+wUrPmWY/4xiwcFo8usVPpj3APfc="
     }
 }

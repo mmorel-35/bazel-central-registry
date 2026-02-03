@@ -1,13 +1,13 @@
---- a/emscripten_toolchain/toolchain.bzl
-+++ b/emscripten_toolchain/toolchain.bzl
-@@ -14,6 +14,10 @@ load(
+--- emscripten_toolchain/toolchain.bzl.orig
++++ emscripten_toolchain/toolchain.bzl
+@@ -14,6 +14,10 @@
+     "with_feature_set",
      _flag_set = "flag_set",
  )
- load("@bazel_tools//tools/build_defs/cc:action_names.bzl", "ACTION_NAMES")
 +load(
 +    "@rules_cc//cc:cc_toolchain_config_lib.bzl",
 +    "CcToolchainConfigInfo",
 +)
+ load("@bazel_tools//tools/build_defs/cc:action_names.bzl", "ACTION_NAMES")
  
  def flag_set(flags = None, features = None, not_features = None, **kwargs):
-     """Extension to flag_set which allows for a "simple" form.
