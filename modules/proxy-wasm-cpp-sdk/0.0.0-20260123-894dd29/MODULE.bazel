@@ -20,7 +20,7 @@ module(
 
 bazel_dep(
     name = "emsdk",
-    version = "4.0.13.bcr.1",
+    version = "4.0.13",
 )
 bazel_dep(
     name = "platforms",

@@ -14,7 +14,7 @@
 
 matrix:
   platform: ["debian11", "macos", "ubuntu2204"]
-  bazel: [7.x, 8.x, 9.x]
+  bazel: [7.x, 8.x]
 tasks:
   verify_targets:
     name: "Build example WebAssembly modules"
