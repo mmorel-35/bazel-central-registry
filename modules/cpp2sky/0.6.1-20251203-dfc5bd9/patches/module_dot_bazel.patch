@@ -8,12 +8,10 @@
  )
  
  bazel_dep(name = "abseil-cpp", version = "20250512.1", repo_name = "com_google_absl")
-@@ -11,11 +11,3 @@
- bazel_dep(name = "rules_cc", version = "0.2.2")
- bazel_dep(name = "skywalking-data-collect-protocol", version = "10.3.0", repo_name = "skywalking_data_collect_protocol")
+@@ -13,9 +13,3 @@
  bazel_dep(name = "spdlog", version = "1.10.0", repo_name = "com_github_gabime_spdlog")
--
--bazel_dep(name = "googletest", version = "1.17.0", dev_dependency = True, repo_name = "com_google_googletest")
+ 
+ bazel_dep(name = "googletest", version = "1.17.0", dev_dependency = True, repo_name = "com_google_googletest")
 -bazel_dep(name = "hedron_compile_commands", dev_dependency = True)
 -git_override(
 -    module_name = "hedron_compile_commands",
