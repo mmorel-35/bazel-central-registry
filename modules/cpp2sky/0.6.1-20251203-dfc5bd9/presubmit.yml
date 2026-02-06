@@ -4,11 +4,19 @@ matrix:
   - ubuntu2004
   - macos
   - macos_arm64
+  bazel:
+  - "7.x"
+  - "8.x"
+  - "9.x"
 tasks:
   verify_targets:
     name: Verify build targets
     platform: ${{ platform }}
+    bazel: ${{ bazel }}
     build_targets:
     - '@cpp2sky//cpp2sky:cpp2sky_interface'
     - '@cpp2sky//cpp2sky:cpp2sky_data_interface'
     - '@cpp2sky//cpp2sky:config_cc_proto'
+    test_targets:
+    - '@cpp2sky//cpp2sky:cpp2sky_interface'
+    - '@cpp2sky//cpp2sky:cpp2sky_data_interface'
