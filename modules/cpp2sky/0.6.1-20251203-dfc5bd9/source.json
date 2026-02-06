@@ -1,0 +1,9 @@
+{
+    "url": "https://github.com/SkyAPM/cpp2sky/archive/dfc5bd9a9561a5f9f5b031311cb01f547c939207.tar.gz",
+    "integrity": "sha256-7wYG9UgXWMoVvPkocUZFaqj48TIyGR7yqXrC8Wez+eI=",
+    "strip_prefix": "cpp2sky-dfc5bd9a9561a5f9f5b031311cb01f547c939207",
+    "patches": {
+        "module_dot_bazel.patch": "sha256-UL8ACCWs4UtJUERvg2Ad18shoPRCNZWHVHbS/x4ed/k="
+    },
+    "patch_strip": 0
+}
