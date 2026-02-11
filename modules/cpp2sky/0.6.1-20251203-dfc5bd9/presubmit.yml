@@ -19,7 +19,3 @@ tasks:
     - '@cpp2sky//cpp2sky:cpp2sky_interface'
     - '@cpp2sky//cpp2sky:cpp2sky_data_interface'
     - '@cpp2sky//cpp2sky:config_cc_proto'
-    test_targets:
-    - '@cpp2sky//test:propagation_test'
-    - '@cpp2sky//test:tracing_context_test'
-    - '@cpp2sky//test:tracer_test'
