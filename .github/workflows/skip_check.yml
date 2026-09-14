@@ -18,7 +18,7 @@ jobs:
           egress-policy: audit
 
       - name: Run bot
-        uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@88343b58ed92860f43faeabd6c41e16b0aac57b6 # master
+        uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@8371ba898104e5fc9a8ebfa211b18ef3d67c03c7 # master
         with:
           token: ${{ secrets.BCR_PR_REVIEW_HELPER_TOKEN }}
           action-type: skip_check
